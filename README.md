@@ -1,3 +1,5 @@
 # landmark_extraction
 
-Python code to automatically extract landarmarks for the left and right venctricle in LVSA segmentations.
+Python code to automatically extract landarmarks in nifti segmentations.
+
+The code finds the z-axis orientation from the segmentation header and places three landmarks for each specified label in the bottom, medium and top voxel labelled with the label of interest along the z-direction.
